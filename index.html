@@ -55,7 +55,7 @@
     .then(jsonData => populateTable(jsonData));
 
   // Fetch Quran data by Sura ID
-  fetchData('https://script.google.com/macros/s/AKfycbxMYft6fXYFaMsUmUx9izOefa-9QkDley-_dCMM-9Olx-RP_ysyBMpQvUr3Owr-3Bk/exec?action=readQuranBySura&suraId=desiredSuraId')
+  fetchData('https://script.google.com/macros/s/AKfycbxMYft6fXYFaMsUmUx9izOefa-9QkDley-_dCMM-9Olx-RP_ysyBMpQvUr3Owr-3Bk/exec?action=readQuranBySura&suraId=2')
     .then(jsonData => populateTable(jsonData));
 
   function populateTable(jsonData) {
